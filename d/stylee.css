@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contenido{
+    width: 50%;
+    height: 100px;
+    background-color: skyblue;
+    margin: 40px auto;
+}
+
+.primera_list{
+    width: 50%;
+    width: 50px;
+    background-color: aliceblue;
+    margin: inherit;
+}
+
+.n2{
+    width: 30%;
+    background-color: red;
+    display: none;
+}
+
+.nemo #inicio{
+    color:  pink;
+}
+
+.nemo{
+    width: 200px;
+}
+
+
+  #inicio:hover .n2{
+    color: aqua;
+    display: block;
+
+}
+
