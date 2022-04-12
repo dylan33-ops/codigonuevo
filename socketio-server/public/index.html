@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+
+<main class="container__main">
+
+	<header class="container__header">
+
+		<h1>Quick Message</h1>
+		<nav>
+			<ul class="nav__list">
+				<li><a href="#">CHATS</a></li>
+				<li><a href="#">Notificaciones</a></li>
+				<li><a href="#">Amigos</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<section class="container__section">
+		<article class="container__section-acrticle">
+			<img src="acces/undraw_Fans_re_cri3.png">
+		</article>
+	</section>
+  <input type="text" id="Username" placeholder="Username">
+  <div  id="chat__container">
+
+  	<div id="chat__window">
+
+  		<div id="output"></div>
+
+  		<div id="actions"></div>
+  		
+  	</div>
+
+
+
+  	</div>
+
+
+  <div class="container__send">
+
+  	
+  
+  	<input type="text" id="Message" placeholder="Message">
+  	<button type="submit"   id="send"><img src="acces/enviar.png"></button>
+  	</div>
+
+  	<div class="container__modal">
+        
+        <div class="cancelar">
+
+        	<img src="acces/cancelar.png" id="salir">
+        	
+        </div>
+  		<h3>¡Ya te registraste!</h3>
+
+  		<div class="container__modal-text_principal">
+  			<p>Que esperas chatea con las personas mas  <span>"IMPORTANTES"</span> de tu familia y amigos</p>
+
+
+  			<div class="container__register">
+  				<p><a href="./loginResgister/login.html" target="_blanck">Registrarme ahora</a></p>
+  			</div>
+  		</div>
+  		
+  	</div>
+
+</main>
+
+<div class="container__modal">
+
+  		<h3>¡Ya te registraste!</h3>
+
+  		<div class="container__modal-text_principal">
+  			<p>Que esperas chatea con las personas mas  <span>"IMPORTANTES"</span> de tu familia y amigos</p>
+
+
+  			<div class="container__register">
+  				<p><a href="./loginResgister/login.html" target="_blanck">Registrarme ahora</a></p>
+  			</div>
+  		</div>
+  		
+  	</div>
+  
+
+ <script src="/socket.io/socket.io.js"></script>
+ <script src="login.js"></script>
+ <script src="chat.js"></script>
+  
+</body>
+</html>
